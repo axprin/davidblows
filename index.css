@@ -37,6 +37,12 @@
 
 @media (max-width: 800px) and (min-width: 400px) {
     #section-1 {
-      background-image: url(assets/mobile.jpg);
+      background-image: url(assets/mobile-v2.jpg);
+      background-size: cover;
+    }
+
+    .heading img{
+       /* max-width: 80%; */
+       display: none;
     }
 }
