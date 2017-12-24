@@ -6,23 +6,6 @@
   text-align:center
 }
 
-/* .video-section {
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-.video-section iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-} */
-
-
-
-
 .video-section iframe{
   max-width: 90%;
   vertical-align: middle;
