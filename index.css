@@ -1,0 +1,58 @@
+.section {
+  background-size: cover;
+}
+
+.video-section {
+  text-align:center
+}
+
+/* .video-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-section iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+} */
+
+
+
+
+.video-section iframe{
+  max-width: 90%;
+  vertical-align: middle;
+}
+.video-section {
+  height: 100%;
+}
+
+.heading img{
+   max-width: 80%;
+}
+
+#section-1 {
+  background-image: url(assets/desktop-v2.jpg);
+}
+
+#section-2 {
+  background-image: url(assets/tree.jpg);
+}
+
+#section-3 {
+  background-image: url(assets/tree2.jpg);
+}
+
+#section-4 {
+  background-image: url(assets/tree3.jpg);
+}
+
+@media (max-width: 800px) and (min-width: 400px) {
+    #section-1 {
+      background-image: url(assets/mobile.jpg);
+    }
+}
